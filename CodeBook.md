@@ -24,8 +24,8 @@ The following tables include information on the variables included in the export
 
 Variable | Source | Description
 ---------|--------|-------
-subjectId | subject_test.txt and subject_train.txt | The set of subject IDs was column bound to the list of test and training data to associate a subject to a given set of measurements.
-activity | y_test and y_train.txt | The ID for a given measurement was correlated to the measurement data set and the ID was translated to it descriptive name via the table in activity_labels.txt.  Valid values are (1 - WALKING, 2 - WALKING_UPSTAIRS, 3 - WALKING_DOWNSTAIRS, 4 - SITTING, 5 - STANDING, 6 - LAYING).
+SubjectId | subject_test.txt and subject_train.txt | The set of subject IDs was column bound to the list of test and training data to associate a subject to a given set of measurements.
+Activity | y_test and y_train.txt | The ID for a given measurement was correlated to the measurement data set and the ID was translated to it descriptive name via the table in activity_labels.txt.  Valid values are (1 - WALKING, 2 - WALKING_UPSTAIRS, 3 - WALKING_DOWNSTAIRS, 4 - SITTING, 5 - STANDING, 6 - LAYING).
 
 The second table contains variables source directly from the raw training and test data sets (X_test.txt and X_train.txt) where the only change is the name of the variable to make it more descriptive.  For a detailed description of these variables (including units involved), please consult the features.txt file in the original HAR data set reference in Study Design.
 
